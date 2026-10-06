@@ -1,0 +1,16 @@
+{
+  "name": "ai-application-test-automation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Playwright test automation framework for the ai-application (AI Notes) app, with dedicated AI-quality scenario suites (hallucination, prompt injection, resilience, faithfulness)",
+  "scripts": {
+    "test": "playwright test",
+    "test:core": "playwright test --grep @core",
+    "test:ai": "playwright test --grep @ai",
+    "test:real-llm": "playwright test --grep @real-llm",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
