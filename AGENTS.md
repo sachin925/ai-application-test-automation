@@ -14,7 +14,9 @@ faithfulness scoring, and a real-LLM soft-property spec gated on
 `OPENAI_API_KEY`.
 
 Stack: Node.js (CommonJS, no build step), `@playwright/test` ^1.63.0 (only
-dependency). Not a git repository as of 2026-10-06.
+dependency). Git repo with remote
+`https://github.com/sachin925/ai-application-test-automation` (private); an
+hourly job commits and pushes pending changes (no-empty-commit, no secrets).
 
 ## Commands
 
